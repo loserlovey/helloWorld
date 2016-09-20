@@ -7,3 +7,5 @@ for i in range(10):
 	print i
 	
 fix 101
+
+edit on web
