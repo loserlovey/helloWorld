@@ -1,19 +1,3 @@
-# helloWorld
-## life is short, i use python
-
-###print('hello, world')
-
-for i in range(10):
-	print i
-	
-
-fix 101
-
-
-'new feature code'
-
-
-fix bug 102
-
-edit on web
+# hello Python World
+## life is short, I use python
 
