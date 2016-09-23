@@ -1,6 +1,10 @@
 # Hello to Python World
 
-> #### *The Zen of Python, by Tim Peters*
+----------
+
+### The Zen of Python,    by Tim Peters
+
+**`> import this`**
 
 > *Beautiful is better than ugly.  
 > Explicit is better than implicit.  
@@ -22,6 +26,6 @@
 > If the implementation is easy to explain, it may be a good idea.  
 > Namespaces are one honking great idea -- let's do more of those!*  
 
-**`> import this`**
+
 
 * [Object Oriented](OO/oo.md)
