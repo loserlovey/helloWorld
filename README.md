@@ -1,6 +1,5 @@
 # Hello to Python World
 
-----------
 
 ### The Zen of Python,    by Tim Peters
 
