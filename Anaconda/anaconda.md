@@ -1,8 +1,3 @@
----
-title: Anaconda
-tags: Anaconda, Install, Enviroment, Clone
----
-
 ## Install Anaconda
 
 [Download](https://www.continuum.io/downloads)
