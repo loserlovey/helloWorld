@@ -1,6 +1,6 @@
 ---
 title: Anaconda
-tags: Anaconda Install Enviroment Clone
+tags: Anaconda, Install, Enviroment, Clone
 ---
 
 ## Install Anaconda
