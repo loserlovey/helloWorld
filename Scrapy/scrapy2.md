@@ -10,3 +10,4 @@
 
 	# scrapy crawl myspider
 
+test
