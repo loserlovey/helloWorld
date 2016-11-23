@@ -31,4 +31,4 @@
 * [Object Oriented](OO/oo.md)
 * [Django] (Django/django.md)
 * [Git] (Git/git.md)
-
+* [MySQL]
