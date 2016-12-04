@@ -21,7 +21,7 @@
 			urls.py
 			wsgi.py
 
-# Run develop server
+# Run development server
 
 	# python manage.py runserver
 
@@ -32,6 +32,9 @@ Specify the web port:
 
 	# python manage.py runserver 80
 
+修改 mysite/settings.py， ALLOWED_HOSTS=['192.168.137.188']，以如下方式启动development server，虚拟机外的机器可以访问：
+
+	# python manage.py runserver 0.0.0.0：8000
 
 # Create a webapp
 

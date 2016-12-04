@@ -41,3 +41,7 @@ deb http://extras.ubuntu.com/ubuntu/ xenial main
 
 ## 安装 django： sudo pip3 install django
 
+## 安装 nginx： sudo apt-get install nginx
+
+
+
