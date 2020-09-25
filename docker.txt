@@ -1,0 +1,35 @@
+docker run -d \
+    --name db \
+    -e POSTGRES_PASSWORD=postgres \
+    -e PGDATA=/var/lib/postgresql/data/pgdata \
+    -v /chenshaoyi/dv_data:/var/lib/postgresql/data \
+    postgres
+
+docker run -d \
+    --name db \
+    -e POSTGRES_PASSWORD=postgres \
+    -e PGDATA=/var/lib/postgresql/data/pgdata \
+    -v dv_pgsql:/var/lib/postgresql/data \
+    postgres
+
+
+
+
+1. docker volume create dv_pgsql
+
+docker run -d \
+    --name db \
+    -e POSTGRES_DB=postgres \
+    -e POSTGRES_USER=odoo \
+    -e POSTGRES_PASSWORD=odoo \
+    -e PGDATA=/var/lib/postgresql/data/pgdata \
+    -p 5432:5432 \
+    -v dv_pgsql:/var/lib/postgresql/data \
+    postgres
+
+2. docker run -d -p 8069:8069 --name odoo --link db:db -t odoo
+
+psql -U odoo -d odoodb -h 127.0.0.1
+
+
+3. docker run -d -p 9000:9000 --name portainer -v "/var/run/docker.sock:/var/run/docker.sock" portainer/portainer:latest

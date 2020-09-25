@@ -1,0 +1,8 @@
+从远程同步icmes-server项目代码的方法。在控制台窗口依次执行以下命令，1步骤秩序执行一次，以后只执行2和3就可以。
+1. git remote add upstream 主库http://192.168.96.197:4567/mes/icmes-server.git
+2. git fetch upstream
+3. git merge upstream/master
+
+
+idea 
+-Duser.timezone=UTC -Xmx512m
