@@ -25,7 +25,8 @@ docker exec -it <container_id> /bin/bash
 
 # jenkins
 
-docker run -d --name myjenkins -p 8100:8080 --restart always -v /var/jenkins_home jenkins
+sudo docker run -d --name myjenkins -p 8100:8080  \
+                -v /home/chenshaoyi/jenkins_home:/var/jenkins_home -u root jenkins
 
 # portainer
 
